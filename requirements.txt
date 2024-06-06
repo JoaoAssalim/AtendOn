@@ -1,0 +1,6 @@
+Django==4.0
+djangorestframework==3.14
+django-health-check==3.18
+drf-yasg==1.21
+python-decouple==3.6
+djangorestframework-bulk==0.2

@@ -4,3 +4,5 @@ django-health-check==3.18
 drf-yasg==1.21
 python-decouple==3.6
 djangorestframework-bulk==0.2
+django-simple-history==3.4
+sendgrid==6.11

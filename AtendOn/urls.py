@@ -16,7 +16,8 @@ urlpatterns_panel_admin_redirect = [
 ]
 
 urlpatterns_api = [
-    path('api/account/', include('core.account.api.urls')),
+    path('api/authentication/', include('core.account.api.urls')),
+    path('api/clients-control/', include('core.clients.api.urls')),
 ]
 
 schema_view = get_schema_view(
